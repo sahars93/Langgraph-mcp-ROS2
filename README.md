@@ -14,31 +14,53 @@ This project utilizes few tools defined in the [ROSA](https://github.com/nasa-jp
 ## Files
 
 - `client.py`: Connects to MCP-enabled server and handles language model interaction
-- `server.py` / `new_server.py`: Handles server-side logic and MCP node management
+- `new_server.py`: Handles server-side logic and MCP node management
 
 ## Requirements
 
 - Python 3.10+
 - ROS 2 Humble
-- `fastmcp`, `langgraph`, `langchain`, etc.
+- `fastmcp`, `langgraph`, `langchain`.
 
 ## Usage
 
 Make sure you have ROS 2 Humble installed. You can follow the official guide here: [ROS 2 Installation Instructions](https://docs.ros.org/en/humble/Installation.html)
 
-### Install turtlesim
+
+### 🐢 Install and Run Turtlesim
 
 ```bash
 sudo apt update
 sudo apt install ros-humble-turtlesim
+```
 
-# In one terminal, run the turtlesim
-ros2 run turtlesim turtlesim_node
-
+Run turtlesim in a terminal:
 
 ```bash
-# Run the server in another terminal
-python3 new_server.py
+ros2 run turtlesim turtlesim_node
+```
 
-# In another terminal, run the client
+---
+
+### 🧠 Run MCP Server
+
+In another terminal, run:
+
+```bash
+python3 new_server.py
+```
+
+---
+
+### 🤖 Run ROS Agent (Client)
+
+In a third terminal, run:
+
+```bash
 python3 client.py
+```
+
+
+## Demo
+
+![Demo GIF](demo.gif)
