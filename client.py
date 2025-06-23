@@ -11,7 +11,7 @@ import threading
 
 model = ChatOllama(
     model="llama3.1:70b",
-    base_url="http://192.168.50.78:11434",   
+    base_url="http://IP:11434",   
     temperature=0,
     num_ctx=8192,  
     )
