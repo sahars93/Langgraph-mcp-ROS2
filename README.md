@@ -54,4 +54,4 @@ python3 client.py
 
 ## Demo
 
-![Demo GIF](demo.webm)
+![Demo GIF](demo.gif)
