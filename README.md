@@ -13,7 +13,7 @@ This project utilizes few tools defined in the [ROSA](https://github.com/nasa-jp
 
 ## Files
 
-- `client.py`: Connects to MCP-enabled server and handles language model interaction
+- `client.py`: Connects to MCP-enabled server and handles language model interaction, it has beed tested with the LLM model **LLaMA 3.1:70B**.
 - `new_server.py`: Handles server-side logic and MCP node management
 
 ## Requirements
