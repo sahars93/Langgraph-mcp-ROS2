@@ -42,19 +42,10 @@ ros2 run turtlesim turtlesim_node
 
 ---
 
-### 🧠 Run MCP Server
-
-In another terminal, run:
-
-```bash
-python3 new_server.py
-```
-
----
 
 ### 🤖 Run ROS Agent (Client)
 
-In a third terminal, run:
+In another terminal, run:
 
 ```bash
 python3 client.py
@@ -63,4 +54,4 @@ python3 client.py
 
 ## Demo
 
-![Demo GIF](demo.gif)
+![Demo GIF](demo.webm)
