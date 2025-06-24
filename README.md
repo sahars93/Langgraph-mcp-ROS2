@@ -22,8 +22,8 @@ This project utilizes few tools defined in the [ROSA](https://github.com/nasa-jp
 - ROS 2 Humble
 
 ```bash
-- pip install fastmcp
-- pip install langchain-mcp-adapters
+pip install fastmcp
+pip install langchain-mcp-adapters
 ```
 ## Usage
 
