@@ -48,6 +48,12 @@ ros2 run turtlesim turtlesim_node
 
 ### 🤖 Run ROS Agent (Client)
 
+Clone this repo:
+
+```bash
+git clone git@github.com:sahars93/Langgraph-mcp-ROS2.git
+```
+
 In another terminal, run:
 
 ```bash
