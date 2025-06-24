@@ -54,7 +54,7 @@ Clone this repo:
 git clone git@github.com:sahars93/Langgraph-mcp-ROS2.git
 ```
 
-In another terminal, run:
+And, run:
 
 ```bash
 python3 client.py
