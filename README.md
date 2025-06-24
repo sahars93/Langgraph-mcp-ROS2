@@ -21,10 +21,10 @@ This project utilizes few tools defined in the [ROSA](https://github.com/nasa-jp
 - Python 3.10+
 - ROS 2 Humble
 
-
+```bash
 - pip install fastmcp
 - pip install langchain-mcp-adapters
-
+```
 ## Usage
 
 Make sure you have ROS 2 Humble installed. You can follow the official guide here: [ROS 2 Installation Instructions](https://docs.ros.org/en/humble/Installation.html)
